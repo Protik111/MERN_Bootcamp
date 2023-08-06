@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+
+.outer-container {
+    border: 3px solid #000;
+    width: 75vw;
+    height: 85vh;
+    position: relative;
+    margin: 40px auto;
+}
+
+.inner-container {
+    border: 2px solid #00f;
+    width: 40vw;
+    height: 40vh;
+    margin: 200px auto;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    padding: 1rem;
+}
+
+.absolute {
+    position: absolute;
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.relative {
+    position: relative;
+    background-color: green;
+    top: 0;
+    right: 0;
+    left: 10px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: aqua;
+    top: 100px;
+    left: 300px;
+
+}

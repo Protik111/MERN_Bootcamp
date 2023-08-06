@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+p {
+    /* font-size: 18px; */
+    font-size: 1.2rem;
+    border: 2px solid red;
+    width: 50%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.section {
+    width: 50%;
+    border: 1px solid rosybrown;
+}
+
+.section h1 {
+    width: 50%;
+    border: 1px solid green;
+}
+
+.section p {
+    font-size: 1.2rem;
+    padding: 1em;
+}

@@ -1,0 +1,16 @@
+/* Box styles */
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+  }
+  
+  /* Inline-box styles */
+  .inline-box {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+    border: 1px solid green;
+  }

@@ -1,0 +1,25 @@
+p {
+    /* Styles applied to all <p> elements */
+}
+
+.my-class {
+    /* Styles applied to elements with class="my-class" */
+}
+
+#my-id {
+    /* Styles applied to the element with id="my-id" */
+}
+
+
+div p {
+    /* Styles applied to all <p> elements inside a <div> */
+}
+
+ul > li {
+    /* Styles applied to all <li> elements that are direct children of a <ul> */
+}
+
+
+* {
+    /* Styles applied to all elements */
+}

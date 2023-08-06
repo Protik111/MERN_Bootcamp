@@ -1,0 +1,22 @@
+
+body {
+    background-color: rgb(232, 247, 240);
+}
+
+h1 {
+    color: black; /* black color */
+}
+
+p {
+    color: #09F; /* Short for #0099FF */
+}
+
+
+div {
+    background-color: rgb(49, 80, 204); /* Magenta color */
+}
+
+
+p {
+    background-color: rgba(197, 142, 245, 0.5); /* Semi-transparent green */
+}

@@ -1,0 +1,11 @@
+p {
+    /* text-align: center; */
+    /* line-height: 1.5; //1.2 is default */
+    letter-spacing: 1.2;
+    word-spacing: 2em;
+
+    /* font */
+    font-weight: 600;
+    font-style: italic;
+     
+}
